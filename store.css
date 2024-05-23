@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #837f7fe7;
+  }
+  .card {
+    /* Maintain aspect ratio by setting a fixed height */
+    height: 0;
+    padding-top: 100%; /* This creates a square shape (height = width) */
+    position: relative;
+}
+
+.col {
+    /* Ensure columns fill available space and maintain aspect ratio */
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; 
+}
+
+/* Additional styling for card content */
+.card .d-flex {
+    /* Center content vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    /* Adjust heading styles as needed */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.card1{
+    background-image: url(img/gm1.jpg);
+    background-position: fill;
+}
+.card2{
+    background-image: url(img/gm2.jpg);
+    background-position: fill;
+}
+.card3{
+    background-image: url(img/gm3.jpg);
+    background-position: cover;
+}
+.card4{
+    background-image: url(img/gm4.jpg);
+    background-position: fill;
+}
+.card5{
+    background-image: url(img/gm5.png);
+    background-position: fill;
+}
+.card6{
+    background-image: url(img/gm6.jpg);
+    background-position: fill;
+}
+.sups22{
+    background-image: url(img/st1.png);
+    display: flex;
+    height: ;
+  
+}
+footer{
+    mask-position: auto;
+}
+section{
+    
+    display: flex;
+}
+.featurette-divider{
+padding: auto;
+    }
+@media (max-width: 992px) {
+    .col {
+        flex: 1 0 100%; /* Set column to full width on smaller screens */
+    }

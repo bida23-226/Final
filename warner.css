@@ -1,0 +1,16 @@
+.c-item{
+    height: 500px;
+}
+.c-img{
+    height: 100px;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+main{
+    padding-top: 100px;
+    height: 500px;
+}
+article{
+    padding-top: 500px;
+    
+}
